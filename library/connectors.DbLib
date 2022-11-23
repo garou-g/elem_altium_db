@@ -1,0 +1,44 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=Z:\home\garou\Dropbox\Projects\elem_altium_db\library\connectors.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=connectors.xls
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=sch;pcb
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Analog$
+[Table1]
+SchemaName=
+TableName=Analog$
+Enabled=True
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=Analog$.Part Number|TableNameOnly=Analog$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Analog$.Library Ref|TableNameOnly=Analog$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Analog$.Footprint Ref|TableNameOnly=Analog$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Analog$.F8|TableNameOnly=Analog$|FieldNameOnly=F8|FieldType=1|ParameterName=F8|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap5]
+Options=FieldName=Analog$.F9|TableNameOnly=Analog$|FieldNameOnly=F9|FieldType=1|ParameterName=F9|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap6]
+Options=FieldName=Analog$.F10|TableNameOnly=Analog$|FieldNameOnly=F10|FieldType=1|ParameterName=F10|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap7]
+Options=FieldName=Analog$.F11|TableNameOnly=Analog$|FieldNameOnly=F11|FieldType=1|ParameterName=F11|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap8]
+Options=FieldName=Analog$.F12|TableNameOnly=Analog$|FieldNameOnly=F12|FieldType=1|ParameterName=F12|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1

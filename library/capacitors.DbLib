@@ -1,0 +1,83 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=Z:\home\garou\Dropbox\Projects\elem_altium_db\library\capacitors.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=capacitors.xls
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=sch;pcb
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=SMD Tantal$
+[Table1]
+SchemaName=
+TableName=SMD (General)$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=85|Library Ref0=102|Footprint Ref0=86|F90=36|F100=42|F110=42|F120=42|F130=42|Part Number Ru0=152|Part Number En0=168|Value0=50|Manufacturer0=88|Manufacturer Part Number0=153
+[Table2]
+SchemaName=
+TableName=SMD Ceramic$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=86|Part Number0=167|F150=42|Nominal0=62|Tolerance0=72|Voltage0=59|Dielectric0=68|Size0=44|Value0=51|Part Number Ru0=178|Part Number En0=208|Manufacturer0=88|Manufacturer Part Number0=153|HelpURL0=67
+[Table3]
+SchemaName=
+TableName=SMD Tantal$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=102|Footprint Ref0=86|Part Number0=145|F140=42|F150=42|Nominal0=62|Tolerance0=72|Voltage0=59|Dielectric0=68|Size0=49|Value0=50|Part Number Ru0=159|Part Number En0=114|Manufacturer0=88|Manufacturer Part Number0=153
+[FieldMap1]
+Options=FieldName=SMD (General)$.Part Number|TableNameOnly=SMD (General)$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=SMD (General)$.Library Ref|TableNameOnly=SMD (General)$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=SMD (General)$.Footprint Ref|TableNameOnly=SMD (General)$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=SMD (General)$.F9|TableNameOnly=SMD (General)$|FieldNameOnly=F9|FieldType=1|ParameterName=F9|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap5]
+Options=FieldName=SMD (General)$.F10|TableNameOnly=SMD (General)$|FieldNameOnly=F10|FieldType=1|ParameterName=F10|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap6]
+Options=FieldName=SMD (General)$.F11|TableNameOnly=SMD (General)$|FieldNameOnly=F11|FieldType=1|ParameterName=F11|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap7]
+Options=FieldName=SMD (General)$.F12|TableNameOnly=SMD (General)$|FieldNameOnly=F12|FieldType=1|ParameterName=F12|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap8]
+Options=FieldName=SMD (General)$.F13|TableNameOnly=SMD (General)$|FieldNameOnly=F13|FieldType=1|ParameterName=F13|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap9]
+Options=FieldName=SMD Ceramic$.Library Ref|TableNameOnly=SMD Ceramic$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=SMD Ceramic$.Footprint Ref|TableNameOnly=SMD Ceramic$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=SMD Ceramic$.Part Number|TableNameOnly=SMD Ceramic$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=SMD Ceramic$.F15|TableNameOnly=SMD Ceramic$|FieldNameOnly=F15|FieldType=1|ParameterName=F15|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap13]
+Options=FieldName=SMD Tantal$.Library Ref|TableNameOnly=SMD Tantal$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=SMD Tantal$.Footprint Ref|TableNameOnly=SMD Tantal$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=SMD Tantal$.Part Number|TableNameOnly=SMD Tantal$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=SMD Tantal$.F14|TableNameOnly=SMD Tantal$|FieldNameOnly=F14|FieldType=1|ParameterName=F14|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap17]
+Options=FieldName=SMD Tantal$.F15|TableNameOnly=SMD Tantal$|FieldNameOnly=F15|FieldType=1|ParameterName=F15|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1

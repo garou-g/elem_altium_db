@@ -1,0 +1,64 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=Z:\home\garou\Dropbox\Projects\elem_altium_db\library\inductors.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=inductors.xls
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=sch;pcb
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=SMD Ferrite$
+[Table1]
+SchemaName=
+TableName=SMD Ferrite$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=96|Part Number Ru0=102|Part Number En0=101|Value0=96|Library Ref0=77|Footprint Ref0=86|Manufacturer0=88|Manufacturer Part Number0=153|F90=36|F100=42|F110=42|F120=42|F130=42
+[Table2]
+SchemaName=
+TableName=SMD Inductors$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Nominal0=62|Tolerance0=72|Voltage0=59|Dielectric0=68|Size0=44|Library Ref0=77|Footprint Ref0=86|Value0=50|Part Number0=85|Part Number Ru0=102|Part Number En0=164|Manufacturer0=88|Manufacturer Part Number0=153|HelpURL0=67|F150=42
+[FieldMap1]
+Options=FieldName=SMD Ferrite$.Part Number|TableNameOnly=SMD Ferrite$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=SMD Ferrite$.Library Ref|TableNameOnly=SMD Ferrite$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=SMD Ferrite$.Footprint Ref|TableNameOnly=SMD Ferrite$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=SMD Ferrite$.F9|TableNameOnly=SMD Ferrite$|FieldNameOnly=F9|FieldType=1|ParameterName=F9|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap5]
+Options=FieldName=SMD Ferrite$.F10|TableNameOnly=SMD Ferrite$|FieldNameOnly=F10|FieldType=1|ParameterName=F10|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap6]
+Options=FieldName=SMD Ferrite$.F11|TableNameOnly=SMD Ferrite$|FieldNameOnly=F11|FieldType=1|ParameterName=F11|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap7]
+Options=FieldName=SMD Ferrite$.F12|TableNameOnly=SMD Ferrite$|FieldNameOnly=F12|FieldType=1|ParameterName=F12|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap8]
+Options=FieldName=SMD Ferrite$.F13|TableNameOnly=SMD Ferrite$|FieldNameOnly=F13|FieldType=1|ParameterName=F13|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap9]
+Options=FieldName=SMD Inductors$.Library Ref|TableNameOnly=SMD Inductors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=SMD Inductors$.Footprint Ref|TableNameOnly=SMD Inductors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=SMD Inductors$.Part Number|TableNameOnly=SMD Inductors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=SMD Inductors$.F15|TableNameOnly=SMD Inductors$|FieldNameOnly=F15|FieldType=1|ParameterName=F15|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1

@@ -1,0 +1,119 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=Z:\home\garou\Dropbox\Projects\elem_altium_db\library\ic.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=ic.xls
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=sch;pcb
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Analog$
+[Table1]
+SchemaName=
+TableName=Analog$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=153|Library Ref0=82|Footprint Ref0=86|F80=36|F90=36|F100=42|F110=42|F120=42|Size0=53|Part Number Ru0=160|Part Number En0=112|Manufacturer0=109
+[Table2]
+SchemaName=
+TableName=Digital$
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=Oscillator$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=139|Value0=64|Part Number Ru0=139|Part Number En0=139|Library Ref0=78|Footprint Ref0=86|Manufacturer0=132|F80=36|F90=36|F100=42|F110=42|F120=42
+[Table4]
+SchemaName=
+TableName=Power Supplies$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=89|Library Ref0=81|Footprint Ref0=86|F80=36|F90=36|F100=42|F110=42|F120=42|Size0=55|Part Number Ru0=137|Part Number En0=101|Manufacturer0=100
+[FieldMap1]
+Options=FieldName=Analog$.Part Number|TableNameOnly=Analog$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Analog$.Library Ref|TableNameOnly=Analog$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Analog$.Footprint Ref|TableNameOnly=Analog$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Analog$.F8|TableNameOnly=Analog$|FieldNameOnly=F8|FieldType=1|ParameterName=F8|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap5]
+Options=FieldName=Analog$.F9|TableNameOnly=Analog$|FieldNameOnly=F9|FieldType=1|ParameterName=F9|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap6]
+Options=FieldName=Analog$.F10|TableNameOnly=Analog$|FieldNameOnly=F10|FieldType=1|ParameterName=F10|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap7]
+Options=FieldName=Analog$.F11|TableNameOnly=Analog$|FieldNameOnly=F11|FieldType=1|ParameterName=F11|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap8]
+Options=FieldName=Analog$.F12|TableNameOnly=Analog$|FieldNameOnly=F12|FieldType=1|ParameterName=F12|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap9]
+Options=FieldName=Digital$.Part Number|TableNameOnly=Digital$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Digital$.Library Ref|TableNameOnly=Digital$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Digital$.Footprint Ref|TableNameOnly=Digital$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Digital$.F8|TableNameOnly=Digital$|FieldNameOnly=F8|FieldType=1|ParameterName=F8|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap13]
+Options=FieldName=Digital$.F9|TableNameOnly=Digital$|FieldNameOnly=F9|FieldType=1|ParameterName=F9|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap14]
+Options=FieldName=Digital$.F10|TableNameOnly=Digital$|FieldNameOnly=F10|FieldType=1|ParameterName=F10|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap15]
+Options=FieldName=Digital$.F11|TableNameOnly=Digital$|FieldNameOnly=F11|FieldType=1|ParameterName=F11|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap16]
+Options=FieldName=Digital$.F12|TableNameOnly=Digital$|FieldNameOnly=F12|FieldType=1|ParameterName=F12|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap17]
+Options=FieldName=Oscillator$.Part Number|TableNameOnly=Oscillator$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Oscillator$.Library Ref|TableNameOnly=Oscillator$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=Oscillator$.Footprint Ref|TableNameOnly=Oscillator$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=Oscillator$.F8|TableNameOnly=Oscillator$|FieldNameOnly=F8|FieldType=1|ParameterName=F8|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap21]
+Options=FieldName=Oscillator$.F9|TableNameOnly=Oscillator$|FieldNameOnly=F9|FieldType=1|ParameterName=F9|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap22]
+Options=FieldName=Oscillator$.F10|TableNameOnly=Oscillator$|FieldNameOnly=F10|FieldType=1|ParameterName=F10|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap23]
+Options=FieldName=Oscillator$.F11|TableNameOnly=Oscillator$|FieldNameOnly=F11|FieldType=1|ParameterName=F11|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap24]
+Options=FieldName=Oscillator$.F12|TableNameOnly=Oscillator$|FieldNameOnly=F12|FieldType=1|ParameterName=F12|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap25]
+Options=FieldName=Power Supplies$.Part Number|TableNameOnly=Power Supplies$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Power Supplies$.Library Ref|TableNameOnly=Power Supplies$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Power Supplies$.Footprint Ref|TableNameOnly=Power Supplies$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Power Supplies$.F8|TableNameOnly=Power Supplies$|FieldNameOnly=F8|FieldType=1|ParameterName=F8|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap29]
+Options=FieldName=Power Supplies$.F9|TableNameOnly=Power Supplies$|FieldNameOnly=F9|FieldType=1|ParameterName=F9|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap30]
+Options=FieldName=Power Supplies$.F10|TableNameOnly=Power Supplies$|FieldNameOnly=F10|FieldType=1|ParameterName=F10|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap31]
+Options=FieldName=Power Supplies$.F11|TableNameOnly=Power Supplies$|FieldNameOnly=F11|FieldType=1|ParameterName=F11|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
+[FieldMap32]
+Options=FieldName=Power Supplies$.F12|TableNameOnly=Power Supplies$|FieldNameOnly=F12|FieldType=1|ParameterName=F12|VisibleOnAdd=False|AddMode=1|RemoveMode=0|UpdateMode=1
